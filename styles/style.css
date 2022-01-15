@@ -8,8 +8,10 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin-top: 70px;
     /* max-width: 1400px; */
     /* width: 80%;
     padding: 0 10%; */
@@ -17,7 +19,25 @@ body{
 .main-header{
     font-size: 24px;
 }
-
+/*-----------navigation bar------------*/
+nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-nav>ul{
+    list-style: none;
+    display: flex;
+}
+.right-nav>ul>li{
+   margin-right: 35px;
+   font-size: 20px;
+   font-weight: 600;
+}
+.right-nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
 /*-------------top banner--------------*/
  
 .top-banner{
@@ -194,7 +214,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
-footer h3,p,i{
+footer h3,p,.social-media{
     margin-top: 15px;
 }
 .footer-section{
