@@ -146,3 +146,38 @@ body{
 #see-more-p>a>i{
     margin: 0;
 }
+
+/*-----------------featured influencers----------*/
+.featured-title{
+    text-align: center;
+    font-size: 35px;
+}
+.featured{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 80%;
+    margin: 10px 10% 0;
+}
+.influencer{
+ padding: 30px;
+ border: 2px solid white;
+ border-radius: 10px;
+ box-shadow: 3px 2px 8px #f0eeee;
+}
+.influencer-img{
+    width: 300px;
+    height: 300px;
+}
+.featured-p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.read-more{
+    margin: 100px 0px;
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: 400;
+    padding: 10px 0;
+    border-radius: 5px;
+}
