@@ -10,9 +10,12 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    max-width: 1400px;
-    width: 80%;
-    padding: 0 10%;
+    /* max-width: 1400px; */
+    /* width: 80%;
+    padding: 0 10%; */
+}
+.main-header{
+    font-size: 24px;
 }
 
 /*-------------top banner--------------*/
@@ -181,3 +184,26 @@ body{
     padding: 10px 0;
     border-radius: 5px;
 }
+
+/*-----------------------footer----------------------------*/
+footer{
+    display: flex;
+    color: white;
+    background-color:#0a0826;
+    height: 240px;    
+    justify-content: center;
+    align-items: center;
+}
+footer h3,p,i{
+    margin-top: 15px;
+}
+.footer-section{
+    text-align: center;
+    height: 170px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
