@@ -16,8 +16,13 @@ body{
     /* width: 80%;
     padding: 0 10%; */
 }
-.main-header{
+.main-logo{
     font-size: 24px;
+}
+nav,.container{
+    max-width: 1400px;
+    width: 80%;
+    padding: 0 10%;
 }
 /*-----------navigation bar------------*/
 nav{
@@ -102,10 +107,9 @@ nav{
 
 .pc-container{
     margin-top: 70px;
-    width: 80%;
-    margin-left:10%;
-    margin-right: 10%;
-    /* border: 2px solid black; */
+    /* width: 80%; */
+    /* margin-left:10%;
+    margin-right: 10%; */
 }
 .popular-collection-title{
     text-align: center;
@@ -116,15 +120,24 @@ nav{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 20px;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
 }
 .product{
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     box-shadow: 3px 2px 8px #f0eeee;
     padding: 15px;
 }
-.product .product-banner .img{
+.product-banner{
     width: 300px;
     height: 256px;
+}
+.product .product-banner .img{
+    height: 100%;
+    width: 100%;
     border-radius: 5px;
 }
 .product-details{
@@ -138,9 +151,7 @@ nav{
     font-size: 24px;
     margin-bottom: 10px;
 }
-.product-details p{
-    margin-bottom: 15px;
-}
+
 .ratings{
     margin-bottom: 10px;
 }
@@ -157,10 +168,23 @@ nav{
     font-size: 12px;
     color: #FB8200;
 }
+.shipping-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.shipping-info>p{
+    color: #787885;
+    font-weight: 700;
+}
 #see-more-p {
     text-align: right;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-weight: 700;
     padding-top: 50px;
+
 }
 #see-more-p a{
     text-decoration: none;
@@ -180,7 +204,8 @@ nav{
     justify-content: center;
     padding: 30px;
     width: 80%;
-    margin: 10px 10% 0;
+    margin-left: 8%;
+    margin-top: 10px;
 }
 .influencer{
  padding: 30px;
@@ -214,7 +239,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
-footer h3,p,.social-media{
+footer h3,.copyright-p,.social-media{
     margin-top: 15px;
 }
 .footer-section{
