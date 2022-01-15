@@ -316,7 +316,12 @@ footer h3,.copyright-p,.social-media{
     }
     .featured{
         flex-direction: column;
+        margin-left: 0;
     }
+    .influencer{
+        padding-left: 0;
+    }
+
 }
 /*---------------------- tablet devices ---------------- */
 @media only screen and (min-width: 688px) and (max-width:992px){
@@ -355,7 +360,7 @@ footer h3,.copyright-p,.social-media{
             margin-left: 0;
         }
         .featured{
-            flex-direction: column;
+            flex-direction: column;            
         }
    }
     
