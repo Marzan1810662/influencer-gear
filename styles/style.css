@@ -13,7 +13,6 @@ body{
     max-width: 1400px;
     width: 80%;
     padding: 0 10%;
-
 }
 
 /*-------------top banner--------------*/
@@ -74,4 +73,76 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+/*----------------popular collection-----------------*/
+
+.pc-container{
+    margin-top: 70px;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+    /* border: 2px solid black; */
+}
+.popular-collection-title{
+    text-align: center;
+    padding:30px 0 ;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+.product{
+    border-radius: 10px;
+    box-shadow: 3px 2px 8px #f0eeee;
+    padding: 15px;
+}
+.product .product-banner .img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.product-details{
+    margin-top: 15px;
+}
+.product-details h2{
+    font-size: 28px;
+}
+.product-details h3{
+    margin-top: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-details p{
+    margin-bottom: 15px;
+}
+.ratings{
+    margin-bottom: 10px;
+}
+.ratings span{
+    margin-left: 20px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star-half-alt.half-filled{
+    font-size: 12px;
+    color: #FB8200;
+}
+#see-more-p {
+    text-align: right;
+    font-weight: 700;
+    padding-top: 50px;
+}
+#see-more-p a{
+    text-decoration: none;
+    color: #E02C6D;
+}
+#see-more-p>a>i{
+    margin: 0;
 }
