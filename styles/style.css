@@ -56,3 +56,22 @@ body{
     width: 50%;
     text-align: center;
 }
+
+/*-----------------logo section------------------ */
+
+.logo-container{
+    width: 90%;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    height: 110px;
+    margin-top: 70px;
+    margin-left:  5%;
+    margin-right:  5%;
+    text-align: center;
+}
+.logos{
+    margin: 36px 62px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
